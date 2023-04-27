@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c56fe1-c8ed-45ae-9597-a9f4713ac6bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab 7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/123.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/new_img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/new_img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/new_img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/new_img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 9/new_img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 10/123.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 10/en-ru.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 11/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laba 6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/Lab 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/ppp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 2/synonyms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/Lab 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab 3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2P0k6eh8IpvGRU3ZUlfbDdWJFDH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/University/PyProject/Laba 3"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c56fe1-c8ed-45ae-9597-a9f4713ac6bc" name="Changes" comment="" />
+      <created>1682601212875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682601212875</updated>
+    </task>
+    <servers />
+  </component>
+</project>
