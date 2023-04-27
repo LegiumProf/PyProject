@@ -1,30 +1,51 @@
-
-from PIL import Image, ImageOps, ImageEnhance
 def first():
-    image = Image.open("123.jpg")
-    image.show()
-    print(f"Размер изображения: {image.size}, Формат изображения: {image.format}, цветовая модель: {image.mode}")
+    countries_dict = {"Австрия": "Вена", "Бельгия": "Брюссель", "Великобритания": "Лондон", "Германия": "Берлин", "Ирландия": "Дублин", "Лихтенштейн": "Вадуц", "Нидерладны": "Амстердам",
+                     "Франция": "Париж", "Белоруссия": "Минск", "Болгария": "София", "Польша": "Варшава", "Чехия": "Прага", "Албания": "Тирана", "Босния и Герцеговина": "Сараево",
+                     "Северная Македония": "Скопье", "Сербия": "Белград"}
+    print(f"Ваш словарь: {countries_dict}")
+    print(f"Столица Германии - {countries_dict['Германия']}")
+    for i in sorted(countries_dict):
+        print(i, "-", countries_dict[i])
 
 def second():
-    image = Image.open("123.jpg")
-    w, h = image.size
-    image.thumbnail((w / 3, h / 3))
-    image.save("small.jpg")
-    img = ImageOps.mirror(image)
-    img.save("mirror.jpg")
-    img = ImageOps.flip(image)
-    img.save("flip.jpg")
-def third():
-    files = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg",]
-    for file in files:
-        image = Image.open(file)
-        enhancer = ImageEnhance.Sharpness(image)
-        img = enhancer.enhance(5)
-        img.save("new" + file)
+    alp = {
+        "авеинорст": 1,
+        "дклмпу": 2,
+        "бгёья": 3,
+        "йы": 4,
+        "жзхцч": 5,
+        "шэю": 8,
+        "фщъ": 10
+    }
+    word = input("Введите слово: ")
+    s = 0
+    for i in word:
+        for j in alp:
+            for k in j:
+                if i == k:
+                    s += alp[j]
+    print(s)
 
-def ford():
-    image1 = Image.open("123.jpg")
-    image2 = Image.open("1234.jpg")
-    image1.paste(image2)
-    image1.save("Water.jpg")
-ford()
+def third():
+    import random
+    students = ["Петров", "Иванов", "Куликов", "Нудов", "Какунов"]
+    languages = ["Английский", "Китайский", "Японский", "Русский", "Испанский", "Арабский", "Французкий", "Итальянский", "Португальский", "Неменцкий"]
+    dict = {}
+    for student in students:
+        lan = []
+        for i in range(random.randint(1, 4)):
+            lan.append(random.choice(languages))
+        dict[student] = sorted(list(set(lan)))
+    print(dict)
+    who_know_china = []
+    for student in students:
+        print(f"{student} знает {len(dict[student])} языка")
+        if "Китайский" in dict[student]:
+            who_know_china.append(student)
+    if len(who_know_china) > 0:
+        print(f"{who_know_china} знает китайский")
+    else:
+        print("Никто не знает китайский")
+
+
+first(), second(), third()
