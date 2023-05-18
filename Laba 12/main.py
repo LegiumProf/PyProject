@@ -70,9 +70,13 @@ def first():
         def open_window(self):
             window = Tk()
             window.title("Доступные вкусы: ")
-            l = Label(window, text=self.flavors, font=("Graphik", 20))
+
             window.geometry("500x250")
-            l.grid(column=0, row=0)
+            p = 1
+            for i in self.flavors:
+                l = Label(window, text=i, font=("Graphik", 20))
+                l.grid(row=p)
+                p += 1
             window.mainloop()
     new_rest = IceCreamStand(input("Напишите название ресторана с мороженым: "), input("Напишите тип кухни: "), input("Напишите описание локации ресторана: "), input("Напишите время работы ресторана:"))
     new_rest.describe_restaurant()
@@ -83,7 +87,6 @@ def first():
     new_rest.check_flavor()
     new_rest.choose_ice()
     new_rest.open_window()
-
 
 
 
